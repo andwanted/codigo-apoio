@@ -1,0 +1,29 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Pedido {
+
+	private Integer numeroPedido;
+	List<Produto> produtos = new ArrayList<>();
+
+	public Pedido() {
+
+	}
+
+	public Pedido(Integer numeroPedido, List<Produto> produtos) {
+
+		this.numeroPedido = numeroPedido;
+		this.produtos = produtos;
+	}
+
+	public Integer getNumeroPedido() {
+		return numeroPedido;
+	}
+
+	public void setNumeroPedido(Integer numeroPedido) {
+		this.numeroPedido = numeroPedido;
+	}
+
+}

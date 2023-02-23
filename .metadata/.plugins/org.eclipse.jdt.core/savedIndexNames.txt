@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\ander\OneDrive\Área de Trabalho\Aprendizado em Java\workspace\ws-codigo-de-apoio\.metadata\.plugins\org.eclipse.jdt.core
+2498300582.index
+1741224368.index
