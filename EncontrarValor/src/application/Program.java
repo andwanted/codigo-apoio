@@ -31,7 +31,6 @@ public class Program {
 		sc.nextLine();
 		int i = 0;
 
-		
 		while (i < x) {
 			boolean encontrado = false;
 			System.out.print("Nome procurado");
@@ -42,10 +41,10 @@ public class Program {
 					i++;
 					encontrado = true;
 					break;
-				} else if (encontrado == false) {
-					System.out.println("Não encontrado, digite novamente!");
-					break;
 				}
+			}
+			if (encontrado == false) {
+				System.out.println("Não encontrado, digite novamente!");
 			}
 		}
 		sc.close();
